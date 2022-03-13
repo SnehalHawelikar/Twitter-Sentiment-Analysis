@@ -95,7 +95,7 @@ if __name__ == "__main__":
     public_tweets = api.home_timeline()
 
     # Call the function to extract the data. pass the topic and filename you want the data to be stored in.
-    Topic = ["Ronaldo"]
+    Topic = ["USA"]
     get_tweets(api, Topic, count=100)
 
     # Remove unwanted columns from dataset
